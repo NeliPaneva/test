@@ -1,0 +1,36 @@
+Line 2: using System;
+Line 2: using System.Collections.Generic;
+Line 2: using System.IO;
+Line 2: using System.Linq;
+Line 2: using System.Text;
+Line 2: using System.Threading.Tasks;
+Line 1: 
+Line 2: namespace Dumi
+Line 1: {
+Line 2:     class Program
+Line 1:     {
+Line 4:         static void Main(string[] args)
+Line 1:         {
+Line 5:             StreamReader reader = new StreamReader("..\\..\\Program.cs");
+Line 5:             StreamWriter writer = new StreamWriter("..\\..\\Rezult.txt");
+Line 2:             using (reader)
+Line 1:             {
+Line 2:                 using (writer)
+Line 1:                 {
+Line 4:                     string line = reader.ReadLine();
+Line 4:                     while (line != null)
+Line 1:                     {
+Line 4:                         int countOfWords = 0;
+Line 5:                         String l = new String(line.ToArray());
+Line 5:                         var words = l.Trim().Split(' ');
+Line 3:                         countOfWords += words.Length;
+Line 5:                         writer.WriteLine("Line {0}: {1}", countOfWords, line);
+Line 5:                         Console.WriteLine("Line {0}: {1}", countOfWords, line);
+Line 3:                         line = reader.ReadLine();
+Line 1: 
+Line 1:                     }
+Line 1:                 }
+Line 1:             }
+Line 1:         }
+Line 1:     }
+Line 1: }

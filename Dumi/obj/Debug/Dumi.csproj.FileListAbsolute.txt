@@ -1,0 +1,7 @@
+C:\Users\Neli\source\repos\File11e\Dumi\bin\Debug\Dumi.exe.config
+C:\Users\Neli\source\repos\File11e\Dumi\bin\Debug\Dumi.exe
+C:\Users\Neli\source\repos\File11e\Dumi\bin\Debug\Dumi.pdb
+C:\Users\Neli\source\repos\File11e\Dumi\obj\Debug\Dumi.csprojAssemblyReference.cache
+C:\Users\Neli\source\repos\File11e\Dumi\obj\Debug\Dumi.csproj.CoreCompileInputs.cache
+C:\Users\Neli\source\repos\File11e\Dumi\obj\Debug\Dumi.exe
+C:\Users\Neli\source\repos\File11e\Dumi\obj\Debug\Dumi.pdb
